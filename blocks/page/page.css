@@ -14,11 +14,6 @@
   }
 }
 
-@media (min-width: 1024px) {
-  .page {
-  }
-}
-
 @media (min-width: 1280px) {
   .page {
     max-width: 984px;

@@ -1,0 +1,25 @@
+.place {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: auto;
+  grid-auto-flow: row;
+  gap: 32px;
+  padding-bottom: 50px;
+}
+
+.place:last-of-type {
+  padding-bottom: 0;
+}
+
+@media (min-width: 768px) {
+  .place {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat (2, minmax(min-content, max-content));
+    grid-template-areas:
+      "place__title place__website"
+      "place__image place_paragraphs";
+    gap: 48px 28px;
+    padding-bottom: 73px;
+  }
+}
