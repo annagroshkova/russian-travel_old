@@ -3,6 +3,24 @@
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
 
-  max-width: 1200px;
+  width: calc(100vw - 32px);
+  max-width: 928px;
   margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .page {
+    width: calc(100vw - 48px);
+  }
+}
+
+@media (min-width: 1024px) {
+  .page {
+  }
+}
+
+@media (min-width: 1280px) {
+  .page {
+    max-width: 984px;
+  }
 }
