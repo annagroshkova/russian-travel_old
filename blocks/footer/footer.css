@@ -13,5 +13,17 @@
     align-content: space-between;
     align-items: flex-end;
     padding: 88px 0 24px;
+    width: 100%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .footer {
+    padding-top: 92px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .footer {
   }
 }
