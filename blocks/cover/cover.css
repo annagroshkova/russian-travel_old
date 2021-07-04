@@ -26,6 +26,13 @@
   }
 }
 
+@media (min-width: 1280px) {
+  .cover {
+    width: 100%;
+    margin: 0;
+  }
+}
+
 .cover:hover .cover__overlay {
   opacity: 0.8;
 }

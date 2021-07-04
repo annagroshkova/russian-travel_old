@@ -20,3 +20,10 @@
     padding-bottom: 92px;
   }
 }
+
+@media (min-width: 1280px) {
+  .places {
+    width: 984px;
+    margin: 0 auto;
+  }
+}
