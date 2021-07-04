@@ -7,10 +7,6 @@
   padding-bottom: 50px;
 }
 
-.place:last-of-type {
-  padding-bottom: 0;
-}
-
 @media (min-width: 768px) {
   .place {
     display: grid;

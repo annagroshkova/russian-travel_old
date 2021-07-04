@@ -1,15 +1,22 @@
 .places {
   padding-top: 64px;
+  padding-bottom: 66px;
+}
+
+.places div:last-of-type {
+  padding-bottom: 0;
 }
 
 @media (min-width: 768px) {
   .places {
     padding-top: 88px;
+    padding-bottom: 90px;
   }
 }
 
 @media (min-width: 1024px) {
   .places {
     padding-top: 92px;
+    padding-bottom: 92px;
   }
 }
