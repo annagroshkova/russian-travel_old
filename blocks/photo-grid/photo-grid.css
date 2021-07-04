@@ -7,7 +7,7 @@
   padding-top: 64px;
 }
 
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .photo-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -18,7 +18,7 @@
   }
 }
 
-@media (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .photo-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -29,7 +29,7 @@
   }
 }
 
-@media (min-width: 1280px) {
+@media screen and (min-width: 1280px) {
   .photo-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);

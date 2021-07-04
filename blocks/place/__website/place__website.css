@@ -4,7 +4,7 @@
   align-content: end;
 }
 
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .place__webside {
     line-height: 20px;
   }

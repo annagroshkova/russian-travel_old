@@ -12,17 +12,17 @@
   text-transform: uppercase;
 }
 
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .lead__caption {
   }
 }
 
-@media (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .lead__caption {
   }
 }
 
-@media (min-width: 1280px) {
+@media screen and (min-width: 1280px) {
   .lead__caption {
   }
 }

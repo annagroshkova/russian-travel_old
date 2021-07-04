@@ -3,7 +3,7 @@
   margin-left: -16px;
 }
 
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .place__image {
     width: 100%;
     margin: 0;
