@@ -32,6 +32,10 @@
 @import url(../blocks/cover/__title/cover__title.css);
 @import url(../blocks/cover/__overlay/cover__overlay.css);
 @import url(../blocks/cover/__text/cover__text.css);
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__links/footer__links.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__copywrite/footer__copywrite.css);
 
 body {
   background-color: #2a2c2f;
