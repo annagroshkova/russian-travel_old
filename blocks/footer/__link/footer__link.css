@@ -1,6 +1,6 @@
 .footer__link {
   color: white;
-  font-family: "Inter";
+  font-family: "Inter", "Arial", sans-serif;
   font-size: 24px;
   line-height: 24px;
   text-decoration: none;
@@ -8,7 +8,6 @@
 }
 
 .footer__link:hover {
-  text-decoration: none;
   opacity: 80%;
 }
 

@@ -1,6 +1,6 @@
 .header__lang-link {
   color: white;
-  font-family: "Inter";
+  font-family: "Inter", "Arial", sans-serif;
   font-size: 18px;
   line-height: 20px;
   text-decoration: none;

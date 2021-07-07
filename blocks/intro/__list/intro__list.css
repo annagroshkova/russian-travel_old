@@ -1,5 +1,5 @@
 .intro__list {
-  font-family: "Inter";
+  font-family: "Inter", "Arial", sans-serif;
   font-weight: bold;
   font-size: 12px;
   line-height: 18px;
@@ -7,9 +7,4 @@
   list-style: none;
   padding: 34px 0 0;
   margin: 0;
-}
-
-.intro__number {
-  font-family: "Inter";
-  font-weight: normal;
 }

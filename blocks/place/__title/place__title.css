@@ -1,5 +1,5 @@
 .place__title {
-  font-family: "Inter";
+  font-family: "Inter", "Arial", sans-serif;
   font-size: 32px;
   font-weight: 900;
   line-height: 35px;
