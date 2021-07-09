@@ -6,8 +6,9 @@
   color: white;
   text-align: center;
   margin: 0;
-  padding: 0 16px 16px;
-  width: 250px;
+  padding: 0 0 16px;
+
+  max-width: 230px;
 }
 
 @media screen and (min-width: 768px) {

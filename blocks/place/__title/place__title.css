@@ -12,11 +12,13 @@
   .place__title {
     font-size: 42px;
     line-height: 46px;
+    max-width: 250px;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .place__title {
+    max-width: auto;
     font-size: 72px;
     line-height: 76px;
   }
