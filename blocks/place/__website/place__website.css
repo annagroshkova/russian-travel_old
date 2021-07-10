@@ -1,0 +1,11 @@
+.place__website {
+  display: grid;
+  justify-content: start;
+  align-content: end;
+}
+
+@media screen and (min-width: 768px) {
+  .place__webside {
+    line-height: 20px;
+  }
+}

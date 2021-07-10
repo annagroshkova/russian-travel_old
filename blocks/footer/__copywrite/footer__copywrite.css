@@ -1,0 +1,16 @@
+.footer__copywrite {
+  color: white;
+  font-family: "Inter", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 14px;
+  margin: 0;
+  padding-top: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .footer__copywrite {
+    padding: 0;
+    font-size: 14px;
+    line-height: 16px;
+  }
+}

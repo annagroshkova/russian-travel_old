@@ -1,0 +1,21 @@
+.page {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+
+  width: calc(100vw - 32px);
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+  .page {
+    width: calc(100vw - 48px);
+    max-width: 928px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .page {
+    max-width: 1184px;
+  }
+}
