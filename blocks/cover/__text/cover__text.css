@@ -10,11 +10,11 @@
   justify-content: center;
   align-items: center;
 
-  max-width: 280px;
+  max-width: 288px;
 }
 
 @media screen and (min-width: 768px) {
   .cover__text {
-    max-width: 485px;
+    max-width: 520px;
   }
 }
